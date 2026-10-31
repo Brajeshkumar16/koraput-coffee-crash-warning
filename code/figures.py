@@ -68,18 +68,20 @@ def fig2():
 
 def fig3():
     p = pd.read_csv(T / "pred_logreg_perfold.csv")
-    fig, (a, b) = plt.subplots(1, 2, figsize=(7.2, 3.2))
-    for score, colr, lab in (("prob", BLUE, "logistic model, tuned within each fold"), ("index", ORANGE, "mean-reversion index")):
+    fig, (a, b) = plt.subplots(1, 2, figsize=(7.2, 3.9), gridspec_kw={"wspace": 0.3})
+    for score, colr, lab in (("prob", BLUE, "Logistic model, tuned within each fold"), ("index", ORANGE, "Mean-reversion index")):
         fpr, tpr, _ = roc_curve(p.actual, p[score])
-        a.plot(fpr, tpr, color=colr, lw=2, label=f"{lab} (AUC {roc_auc_score(p.actual, p[score]):.3f})")
+        auc, ap = roc_auc_score(p.actual, p[score]), average_precision_score(p.actual, p[score])
+        a.plot(fpr, tpr, color=colr, lw=1.8, label=f"{lab}: ROC-AUC {auc:.3f}, AP {ap:.3f}")
         pr, rc, _ = precision_recall_curve(p.actual, p[score])
-        b.plot(rc, pr, color=colr, lw=2, label=f"{lab} (AP {average_precision_score(p.actual, p[score]):.3f})")
-    a.plot([0, 1], [0, 1], color=GRAY, lw=1)
-    b.axhline(p.actual.mean(), color=GRAY, lw=1)
-    a.set(xlabel="false positive rate", ylabel="true positive rate", title="ROC, test seasons 2015-2025 (n = 110)")
-    b.set(xlabel="recall", ylabel="precision", title="Precision-recall")
-    a.legend(loc="lower right", fontsize=7.5)
-    b.legend(loc="lower left", fontsize=7.5)
+        b.plot(rc, pr, color=colr, lw=1.8)
+    a.plot([0, 1], [0, 1], color=GRAY, lw=1, ls="--", label=f"No skill (diagonal; crash prevalence {p.actual.mean():.2f})")
+    b.axhline(p.actual.mean(), color=GRAY, lw=1, ls="--")
+    a.set(xlabel="False positive rate", ylabel="True positive rate", title="A  ROC curve", xlim=(-0.02, 1.02), ylim=(-0.02, 1.02))
+    b.set(xlabel="Recall", ylabel="Precision", title="B  Precision-recall curve", xlim=(-0.02, 1.02), ylim=(0.3, 1.03))
+    # one legend for both panels, below the axes, so nothing covers the curves
+    fig.legend(*a.get_legend_handles_labels(), loc="lower center", bbox_to_anchor=(0.5, 0.0), ncol=1, fontsize=8)
+    fig.subplots_adjust(bottom=0.3)
     save(fig, "Fig3_roc_pr_uncalibrated")
 
 
