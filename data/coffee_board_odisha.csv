@@ -1,0 +1,18 @@
+season,final_production_mt,production_edition,production_basis,planted_area_ha,area_edition,production_url,area_url
+2009-10,100.0,DATABASEMar11_I,post-monsoon label kept after season end,3409.0,DATABASEJan12_I,https://coffeeboard.gov.in/Database/DATABASEMar11_I.pdf,https://coffeeboard.gov.in/Database/DATABASEJan12_I.pdf
+2010-11,260.0,DATABASEJan12_I,labelled final,3549.0,DATABASEMar13_I,https://coffeeboard.gov.in/Database/DATABASEJan12_I.pdf,https://coffeeboard.gov.in/Database/DATABASEMar13_I.pdf
+2011-12,360.0,DATABASEMar13_I,labelled final,3549.0,DATABASE_Sep14_I,https://coffeeboard.gov.in/Database/DATABASEMar13_I.pdf,https://coffeeboard.gov.in/Database/DATABASE_Sep14_I.pdf
+2012-13,310.0,web_20140512030015,labelled final,3935.0,DATABASE_Mar15_I,https://web.archive.org/web/20140512030015id_/https://indiacoffee.org/coffee-statistics.html,https://coffeeboard.gov.in/Database/DATABASE_Mar15_I.pdf
+2013-14,440.0,DATABASE_Mar15_I,labelled final,4066.0,DATABASE_Feb16_I,https://coffeeboard.gov.in/Database/DATABASE_Mar15_I.pdf,https://coffeeboard.gov.in/Database/DATABASE_Feb16_I.pdf
+2014-15,550.0,DATABASE_Feb16_I,labelled final,4140.0,DATABASE_Mar17_I,https://coffeeboard.gov.in/Database/DATABASE_Feb16_I.pdf,https://coffeeboard.gov.in/Database/DATABASE_Mar17_I.pdf
+2015-16,600.0,web_20170606083940,labelled final,4191.0,DATABASE_Nov17_web,https://web.archive.org/web/20170606083940id_/https://indiacoffee.org/coffee-statistics.html,https://coffeeboard.gov.in/Database/DATABASE_Nov17_web.pdf
+2016-17,650.0,DATABASE_Nov17_web,"unlabelled, later edition",4239.0,DATABASEJAN19_P,https://coffeeboard.gov.in/Database/DATABASE_Nov17_web.pdf,https://coffeeboard.gov.in/Database/DATABASEJAN19_P.pdf
+2017-18,740.0,web_20190327123154,labelled final,4282.0,DATABASE_Jan2020_web,https://web.archive.org/web/20190327123154id_/https://indiacoffee.org/coffee-statistics.html,https://coffeeboard.gov.in/Database/DATABASE_Jan2020_web.pdf
+2018-19,650.0,DATABASE_Sep2020_web,"unlabelled, later edition",4282.0,DATABASE_Jan2021,https://coffeeboard.gov.in/Database/DATABASE_Sep2020_web.pdf,https://coffeeboard.gov.in/Database/DATABASE_Jan2021.pdf
+2019-20,670.0,web_20210614063924,labelled final,4276.0,DATABASE3_Jan2022,https://web.archive.org/web/20210614063924id_/https://indiacoffee.org/coffee-statistics.html,https://coffeeboard.gov.in/Database/DATABASE3_Jan2022.pdf
+2020-21,610.0,web_20220210211219,labelled final,4339.0,DATABASE3_JAN2023,https://web.archive.org/web/20220210211219id_/https://indiacoffee.org/coffee-statistics.html,https://coffeeboard.gov.in/Database/DATABASE3_JAN2023.pdf
+2021-22,565.0,web_20230625060518,labelled final,4424.0,DATABASE3_JULY2023,https://web.archive.org/web/20230625060518id_/https://indiacoffee.org/coffee-statistics.html,https://coffeeboard.gov.in/Database/DATABASE3_JULY2023.pdf
+2022-23,465.0,DATABASE3_JULY2024,"unlabelled, later edition",4868.0,DATABASE3_JULY2024,https://coffeeboard.gov.in/Database/DATABASE3_JULY2024.pdf,https://coffeeboard.gov.in/Database/DATABASE3_JULY2024.pdf
+2023-24,,,,5351.0,DATABASE3_JULY2024,,https://coffeeboard.gov.in/Database/DATABASE3_JULY2024.pdf
+2024-25,460.0,web_20251212185629,labelled final,,,https://web.archive.org/web/20251212185629id_/https://coffeeboard.gov.in/coffee-statistics.html,
+2025-26,470.0,web_20261003131639,labelled final,,,https://coffeeboard.gov.in/coffee-statistics.html,

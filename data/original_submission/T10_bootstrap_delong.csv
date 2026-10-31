@@ -1,0 +1,5 @@
+Quantity,Value,CI95_lo,CI95_hi,Note
+LogisticRegression ROC_AUC,0.6987,0.5952,0.7957,bootstrap B=2000 (2000 valid resamples)
+LogisticRegression PR_AUC,0.6275,0.4934,0.7602,bootstrap B=2000
+Naive baseline ROC_AUC (score = Yield_dev_clim_pct),0.7779,,,"single-feature ranking, no model"
+AUC difference (model - naive),-0.0791,,,DeLong p = 0.1115

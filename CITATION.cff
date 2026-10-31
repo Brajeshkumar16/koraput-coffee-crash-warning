@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite them as below."
+type: dataset
+title: "Data and code: Apparent skill in warning of coffee yield crashes from a compiled administrative panel for Koraput India reflects regression to the mean"
+version: 1.0.0
+license:
+  - CC-BY-4.0
+  - MIT
+authors:
+  - given-names: Abhilash
+    family-names: Dash
+    affiliation: "C. V. Raman Global University, Bhubaneswar, India"
+    orcid: "https://orcid.org/0000-0001-7767-5979"
+  - given-names: Adyasha
+    family-names: Rath
+    affiliation: "C. V. Raman Global University, Bhubaneswar, India"
+  - given-names: Manoj
+    family-names: Mishra
+  - given-names: Brajesh
+    family-names: Kumar
+    affiliation: "IIT Bhubaneswar, India"
+  - given-names: Ganapati
+    family-names: Panda
+    affiliation: "C. V. Raman Global University, Bhubaneswar, India"
+  - given-names: Debashis
+    family-names: Dash
+    affiliation: "C. V. Raman Global University, Bhubaneswar, India"
+    orcid: "https://orcid.org/0000-0003-3605-0002"
+keywords:
+  - coffee
+  - early warning
+  - regression to the mean
+  - rolling-origin evaluation
+  - Koraput
