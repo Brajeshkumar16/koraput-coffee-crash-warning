@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use these data or code, please cite them as below."
 type: dataset
-title: "Data and code: Apparent skill in warning of coffee yield crashes from a compiled administrative panel for Koraput India reflects regression to the mean"
+title: "Data and code: Coffee yield crash prediction by developing Machine Learning models using Coffee Dataset of Koraput India"
 version: 1.0.0
 license:
   - CC-BY-4.0

@@ -1,4 +1,4 @@
-# Data and code: "Apparent skill in warning of coffee yield crashes from a compiled administrative panel for Koraput India reflects regression to the mean"
+# Data and code: "Coffee yield crash prediction by developing Machine Learning models using Coffee Dataset of Koraput India"
 
 Revised manuscript submitted to *Discover Sustainability* (submission ID d99a7a07-abcf-4c43-9e90-3a8dbd821ddd).
 
